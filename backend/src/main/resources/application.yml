@@ -1,0 +1,12 @@
+spring:
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: gpt-oss:20b-cloud
+      embedding:
+        options:
+          model: nomic-embed-text # default recommended embedding model for Ollama
+server:
+  port: 8081

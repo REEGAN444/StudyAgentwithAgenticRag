@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  # Endee Vector Database
+  endee-oss:
+    image: endeeio/endee-server:latest # Using official image based on documentation
+    container_name: endee-server
+    ports:
+      - "8080:8080"
+    ulimits:
+      nofile:
+        soft: 100000
+        hard: 100000
+    volumes:
+      - endee-data:/data
+    restart: unless-stopped
+
+  # Spring Boot Backend Service (Requires local build first or a Dockerfile)
+  # backend:
+  #   build: ./backend
+  #   ports:
+  #     - "8081:8080"
+  #   depends_on:
+  #     - endee-oss
+  #   environment:
+  #     - OPENAI_API_KEY=${OPENAI_API_KEY}
+
+volumes:
+  endee-data:

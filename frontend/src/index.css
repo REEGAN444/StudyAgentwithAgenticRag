@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-agentDark text-agentLight antialiased;
+  }
+}
+.transform-style-3d { transform-style: preserve-3d; } .backface-hidden { backface-visibility: hidden; } 
