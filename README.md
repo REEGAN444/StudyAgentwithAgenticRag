@@ -77,16 +77,13 @@ sequenceDiagram
 
 This application was successfully structured, built, and tested from scratch within a strict 24-hour internship deadline.
 
-- **Phase 1 (Hours 1-4): Requirements & Repository Initialization**
-  - Architected dual-stack approach. Forged Git structures and built `docker-compose` routing for the Endee Database.
-- **Phase 2 (Hours 5-10): Digital Theming & UI Build**
-  - React + Vite. Tailwind CSS was aggressively customized to mirror the NexusHUD Cyberpunk schema, adding Framer Motion logic.
-- **Phase 3 (Hours 11-16): Central Brain Configuration**
-  - Spring Boot API constructed. Wired `RestTemplate` for Endee embeddings. Linked `spring-ai` ChatClient wrappers to local Model `gpt-oss:20b-cloud`.
-- **Phase 4 (Hours 17-21): Agentic Generators**
-  - Prompt Engineering for strict JSON parsing for Flashcards/Quiz components. Tested LLM fail-over constraints.
-- **Phase 5 (Hours 22-24): Polishing & Deployment**
-  - Repaired 3D Transform bugs natively in React. Restructured README. Final Force Push to GitHub repository.
+| Sprint Phase | Hours Logged | Core Execution Focus |
+| :--- | :---: | :--- |
+| **Phase 1** | Hours 1-4 | Architected dual-stack approach. Forged Git structures and built `docker-compose` routing for the Endee Database. |
+| **Phase 2** | Hours 5-10 | React + Vite. Tailwind CSS was aggressively customized to mirror the NexusHUD Cyberpunk schema, adding Framer Motion logic. |
+| **Phase 3** | Hours 11-16 | Spring Boot API constructed. Wired `RestTemplate` for Endee embeddings. Linked `spring-ai` ChatClient wrappers to local Model `gpt-oss:20b-cloud`. |
+| **Phase 4** | Hours 17-21 | Prompt Engineering for strict JSON parsing for Flashcards/Quiz components. Tested LLM fail-over constraints. |
+| **Phase 5** | Hours 22-24 | Repaired 3D Transform bugs natively in React. Restructured README. Final Force Push to GitHub repository. |
 
 ---
 
