@@ -133,7 +133,7 @@ npm run dev
 ```
 *Visit `http://localhost:3000` to interact with NexusLearn DB.*
 
-##⚡ScreenShots
+###⚡ScreenShots
 <img width="1920" height="1020" alt="Screenshot 2026-04-13 131838" src="https://github.com/user-attachments/assets/8a27d6c6-4349-4c57-ba7f-4c11b62d9a60" />
 <img width="1920" height="1080" alt="Screenshot 2026-04-13 131915" src="https://github.com/user-attachments/assets/39ff56d0-d64a-4748-8cbe-3dae101ce9d5" />
 <img width="1920" height="1080" alt="Screenshot 2026-04-13 131925" src="https://github.com/user-attachments/assets/ebad2377-8b21-43b6-96d9-7460bd4bc61e" />
